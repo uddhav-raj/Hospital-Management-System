@@ -1,0 +1,20 @@
+This project works in linux environment.
+Softwares needed-
+1. Apache
+2. MySQL
+3. PHP
+4. PHPMyAdmin
+
+You can go to these links and follow the steps to install the above
+
+1. https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-16-04
+2. https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
+
+
+Set the username in mysql and phpmyadmin as "root" and password as "time.org" during installation. You can change these but then you will have to change the username and password in all the codes.
+
+After successfull installation right click in this folder and click on open in terminal. Type this command - "php -S localhost:1234" and press enter. There will be a promt saying the terminal has started listening. 
+
+Now go to any browser ( I prefer Mozilla) and type localhost:/main_front.php
+
+You can see the frontend of the project. If you want to use the project you will have to import my tables in your phpmyadmin. Or just create your own tables by looking at the codes. 
